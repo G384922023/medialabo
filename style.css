@@ -1,3 +1,10 @@
 h1{
-    color: navy;
+    color: black;
+    background: linear-gradient(to  right,#7cfc00,white); ;
+}
+h2{
+    background-color: #7cfc00;
+}
+h3{
+    background-color: #7cfc00;
 }
