@@ -22,8 +22,9 @@ function hantei() {
   if(kaisu >= 4){
     console.log("答えは" + kotae +"でした.　すでにゲームは終わってます");
   }else{
-    if(yoso === kotae){}
-    console.log("");
+    if(yoso === kotae){
+        console.log("正解です．おめでとう!");
+    }
   }
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
