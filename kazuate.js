@@ -24,7 +24,10 @@ function hantei() {
   }else{
     if(yoso === kotae){
         console.log("正解です．おめでとう!");
+    }else{
+        console.log("不正解");
     }
+    console.log(kaisu);
   }
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
