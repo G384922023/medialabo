@@ -25,7 +25,7 @@ function hantei() {
     if(yoso === kotae){
         console.log("正解です．おめでとう!");
     }else{
-        console.log("不正解");
+        console.log(kaisu + "回目" + "不正解");
     }
     console.log(kaisu);
   }
