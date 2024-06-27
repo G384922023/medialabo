@@ -27,7 +27,7 @@ function hantei() {
     }else{
         console.log(kaisu + "回目" + "不正解");
     }
-    console.log(kaisu);
+    console.log(yoso);
   }
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
