@@ -12,15 +12,42 @@ let data = [
 	{name:'沖縄', lat:26.2125, lng:127.68111}
 ];
 //// 注意: 以上は編集しないこと!
-
 // 練習4-2 メッセージ追加プログラム
-
+let h = document.querySelector('h2#ex42');
+let p = document.createElement('p');
+p.style.textEmphasis = 'sesame green';
+p.textContent = '写真表と都市の緯度経度のページです';
+h.insertAdjacentElement('afterend',p);
 
 // 練習4-3 写真表作成プログラム
+let div = document.querySelector('div#phototable');
+let img = document.createElement('img');
+img.setAttribute('src' , 'taro.png');
+let p1 = document.createElement('p');
+p1.insertAdjacentElement('beforeend', img);
+div.insertAdjacentElement('beforeend', p1);
 
+let p2 = document.createElement('p');
+let img2 = document.createElement('img');
+img2.setAttribute('src','jiro.png');
+p2.insertAdjacentElement('beforeend', img2);
+div.insertAdjacentElement('beforeend', p2);
+
+let p3 = document.createElement('p');
+let img3 = document.createElement('img');
+img3.setAttribute('src','hanako.png');
+p3.insertAdjacentElement('beforeend', img3);
+div.insertAdjacentElement('beforeend', p3);
 
 // 練習4-4 箇条書き削除プログラム
-
-
+let ul = document.querySelectorAll('li');
+for(let n of ul){
+	n.remove();
+  }
 // 練習4-5 箇条書き追加プログラム
-
+ul = document.querySelector('ul#location');
+for(let n of data){
+	let li = document.createElement('li');
+	li.textContent = n.name+' 緯度: '+n.lat+' 経度: '+n.lng;
+	ul.insertAdjacentElement('beforeend',li);
+  }
