@@ -19,9 +19,9 @@ function hantei() {
   let k = document.querySelector('input[name="kazu"]');
   yoso = parseInt(k.value,10);
   kaisu = kaisu + 1;
-  let ka = document.querySelector("span#kaisu");
+  let n = document.querySelector("span#kaisu");
   let a = document.querySelector("span#answer");
-  ka.textContent = kaisu + '回目の予想：'+ yoso;
+  n.textContent = kaisu + '回目の予想：'+ yoso;
   if(kaisu >= 4){
     a.textContent = "答えは" + kotae +"でした.　すでにゲームは終わってます";
   }else if(yoso === kotae){
