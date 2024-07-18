@@ -2,35 +2,35 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>My page</title>
+        <title>project</title>
         <link rel="stylesheet" href="project.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
         <script src="gourmet.js" defer></script>
     </head>
     <body>
-        <h1>グルメ情報</h1>
-        <genre>
-            検索キー
-        </genre>
-        <ul>
-            <li><g1>居酒屋</g1></li>
-            <li>ダイニングバー・バル</li>
-            <li>創作料理</li>
-            <li>和食</li>
-            <li>洋食</li>
-            <li>イタリアン・フレンチ</li>
-            <li>中華</li>
-            <li>焼肉・ホルモン</li>
-            <li>アジア・エスニック料理</li>
-            <li>各国料理</li>
-            <li>カラオケ・パーティ</li>
-            <li>バー・カクテル</li>
-            <li>ラーメン</li>
-            <li>カフェ・スイーツ</li>
-            <li>その他グルメ</li>
-            <li>お好み焼き・もんじゃ</li>
-            <li>韓国料理</li>
-        </ul>
-
-        <p>編集中</p>
+        <h1>〜グルメ情報〜</h1>
+        <h2>あなたの食べたいジャンルの飲食店を探します！！</h2>
+        <select id="Genre">
+            <option value="">どんな食事を探してますか？</option>
+            <option value="G001">居酒屋</option>
+            <option value="G002">ダイニングバー・バル</option>
+            <option value="G003">創作料理</option>
+            <option value="G004">和食</option>
+            <option value="G005">洋食</option>
+            <option value="G006">イタリアン・フレンチ</option>
+            <option value="G007">中華</option>
+            <option value="G008">焼肉・ホルモン</option>
+            <option value="G009">アジア・エスニック料理</option>
+            <option value="G010">各国料理</option>
+            <option value="G011">カラオケ・パーティ</option>
+            <option value="G012">バー・カクテル</option>
+            <option value="G013">ラーメン</option>
+            <option value="G014">カフェ・スイーツ</option>
+            <option value="G015">その他グルメ</option>
+            <option value="G016">お好み焼き・もんじゃ</option>
+            <option value="G017">韓国料理</option>
+        </select>
+        <button id="answer">これにする！！</button>
+        <div id="result"></div>
     </body>
 </html>

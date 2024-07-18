@@ -1,4 +1,26 @@
 h1{
-    color:aqua;
-    background-color: yellow;
+    color: skyblue;
+    font-size: 50px;
+    text-align: center;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    background-color: lightyellow;
+    font-family: monospace;
+}
+h2{
+    border:5px;
+    font-family: monospace;
+}
+body{
+    background-color: skyblue;
+}
+div#result{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 10px;
+}
+div#result > div{
+    border:6mm ridge lightyellow;
+    background-color: lightyellow;
+    font-family: monospace;
+    
 }
