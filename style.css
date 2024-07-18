@@ -1,24 +1,34 @@
 h1{
     color: black;
     text-align: center;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    background-color: lightyellow;
+    font-family: monospace;
 }
 h2{
     background-color: #7cfc00;
+    font-family: monospace;
+    text-align: center;
 }
 h3{
     background-color: #7cfc00;
+    font-family: monospace;
 }
 .info{
-    background-color: #ffefaf;
-    border:5px solid;
+    background-color: lightyellow;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    font-family: monospace;
 }
 .pra{
-    background-color: #ffefaf;
-    border:5px solid;
+    background-color: lightyellow;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    font-family: monospace;
 }
 .fin{
     background-color: #7cfc00;
+    font-family: monospace;
 }
 body{
     background-color: skyblue;
+    font-family: monospace;
 }
