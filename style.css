@@ -1,6 +1,6 @@
 h1{
     color: black;
-    background: linear-gradient(to  right,green,white); ;
+    text-align: center;
 }
 h2{
     background-color: #7cfc00;
@@ -12,23 +12,13 @@ h3{
     background-color: #ffefaf;
     border:5px solid;
 }
-.pra1{
+.pra{
     background-color: #ffefaf;
     border:5px solid;
 }
-.pra2{
-    background-color: #ffefaf;
-    border:5px solid;
+.fin{
+    background-color: #7cfc00;
 }
-.pra3{
-    background-color: #ffefaf;
-    border:5px solid;
-}
-.pra4{
-    background-color: #ffefaf;
-    border:5px solid;
-}
-.pra5{
-    background-color: #ffefaf;
-    border:5px solid;
+body{
+    background-color: skyblue;
 }
