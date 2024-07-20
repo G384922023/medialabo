@@ -6,12 +6,12 @@ h1{
     font-family: monospace;
 }
 h2{
-    background-color: #7cfc00;
+    background: linear-gradient(0.25turn, skyblue, lightyellow, skyblue);
     font-family: monospace;
     text-align: center;
 }
 h3{
-    background-color: #7cfc00;
+    background-color: lightyellow;
     font-family: monospace;
 }
 .info{
@@ -25,7 +25,7 @@ h3{
     font-family: monospace;
 }
 .fin{
-    background-color: #7cfc00;
+    background-color: lightyellow;
     font-family: monospace;
 }
 body{
