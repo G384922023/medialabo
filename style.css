@@ -11,7 +11,7 @@ h2{
     text-align: center;
 }
 h3{
-    background-color: lightyellow;
+    background: linear-gradient(to left, skyblue, lightyellow);
     font-family: monospace;
 }
 .info{
@@ -25,7 +25,7 @@ h3{
     font-family: monospace;
 }
 .fin{
-    background-color: lightyellow;
+    background: linear-gradient(to left, skyblue, lightyellow);
     font-family: monospace;
 }
 body{
